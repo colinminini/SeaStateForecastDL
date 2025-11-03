@@ -2,6 +2,10 @@
 **Colin Minini — CentraleSupélec & University College Dublin**  
 **February – July 2025 — HIGHWAVE Project**  
 
+**Supervisors:**  
+[Prof. Frédéric Dias](https://ens-paris-saclay.fr/lecole/parcours-inspirants/frederic-dias) — ENS Paris-Saclay & University College Dublin  
+[Prof. Brendan Murphy](https://people.ucd.ie/brendan.murphy) — University College Dublin
+
 ---
 
 ### Overview
