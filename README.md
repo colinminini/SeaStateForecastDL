@@ -77,14 +77,14 @@ $$
 Multivariate long-range forecasting reproduces published SOTA results.  
 SegRNN and PatchTST show the lowest errors and best temporal consistency.
 
-| Model | MAE | MSE | Parameters | Train Time (s) |
-|:------|----:|----:|------------:|---------------:|
-| LSTM | 0.347 | 0.200 | 68 K | 0.84 |
-| TCN | 0.370 | 0.233 | 55 K | 0.97 |
-| PatchTST (uni) | 0.266 | 0.133 | 2.6 M | 36.4 |
-| PatchTST (multi) | 0.269 | 0.206 | 2.6 M | 36.4 |
-| SegRNN (uni) | 0.251 | 0.122 | 1.6 M | 5.98 |
-| SegRNN (multi) | **0.227** | **0.187** | 1.6 M | 5.98 |
+| Model | MAE | MSE | Parameters |
+|:------|----:|----:|------------:|
+| LSTM | 0.347 | 0.200 | 68 K |
+| TCN | 0.370 | 0.233 | 55 K |
+| PatchTST (uni) | 0.266 | 0.133 | 2.6 M |
+| PatchTST (multi) | 0.269 | 0.206 | 2.6 M |
+| SegRNN (uni) | 0.251 | 0.122 | 1.6 M |
+| SegRNN (multi) | **0.227** | **0.187** | 1.6 M |
 
 ![Weather Forecast Example](figures/Weather_One_Sample_with_context.png)
 ![Weather Forecast Output](figures/Weather_One_Sample_just_Output.png)
@@ -114,13 +114,13 @@ The best physical forecasts reach **MAE ≈ 0.42 m** and **MSE ≈ 0.34**, formi
 
 ### Deep Learning Residual Models
 
-| Rank | Model | MAE | MSE | Parameters | Train Time (s) |
-|:----:|:------|----:|----:|------------:|---------------:|
-| 1 | **LSTM** | **0.402** | **0.294** | 56.9 K | 0.21 |
-| 2 | **SegRNN (uni)** | **0.406** | **0.297** | 1.59 M | 0.66 |
-| 3 | **XGBoost** | 0.415 | 0.316 | 100 | 75.75 |
-| 4 | **PatchTST (uni)** | 0.428 | 0.324 | 406 K | 0.96 |
-| 5 | **TCN** | 0.444 | 0.353 | 43.9 K | 0.31 |
+| Rank | Model | MAE | MSE | Parameters |
+|:----:|:------|----:|----:|------------:|
+| 1 | **LSTM** | **0.402** | **0.294** | 56.9 K |
+| 2 | **SegRNN (uni)** | **0.406** | **0.297** | 1.59 M |
+| 3 | **XGBoost** | 0.415 | 0.316 | X |
+| 4 | **PatchTST (uni)** | 0.428 | 0.324 | 406 K |
+| 5 | **TCN** | 0.444 | 0.353 | 43.9 K |
 
 ---
 
